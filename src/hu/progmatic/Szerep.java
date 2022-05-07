@@ -20,6 +20,6 @@ public class Szerep {
     @Override
     public String toString() {
         return
-                "szerep='" + szerep;
+                "\nszerep: " + szerep;
     }
 }

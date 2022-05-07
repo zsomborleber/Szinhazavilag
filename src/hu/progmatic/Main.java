@@ -19,7 +19,7 @@ public class Main {
                 new Szerep("Expert Developer"),
                 new Szerep("God Developer"),
         };
-        
+
 
         SzínészSzerep[] színészSzerep = {
                 new SzínészSzerep(színészek[0],szerep[0]),

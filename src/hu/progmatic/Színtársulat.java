@@ -13,6 +13,29 @@ public class Színtársulat {
         this.színtársulatiTags = színtársulatiTags;
         this.színTársulatNeve = színTársulatNeve;
     }
+    String[] kellékes1 = {
+            String.valueOf(new String[]{"Monitor","Billenytűzet","Egér",}),
+
+    };
+    String[] kellékes2 = {
+            String.valueOf(new String[]{"Asztal", "Szék",}),
+    };
+
+    SzíntársulatiTag[]színtársulatiTagok= {
+            new SzíntársulatiTag("Gyula",15_000),
+            new SzíntársulatiTag("Zita",20_000),
+            new SzíntársulatiTag("András",25_000),
+            new SzíntársulatiTag("Enci",30_000),
+            new SzíntársulatiTag("zsombor",45_000),
+            new Rendezo("Ria",60_000,10,99),
+            new Rendezo("Balázs",60_000,10,99),
+            new Kellékes("Barni",10_000,kellékes1),
+            new Kellékes("Áron",10_000,kellékes2)
+    };
+
+    Színtársulat[] színtársulats = {
+            new Színtársulat(színészek,színtársulatiTagok,"FutureOFDevelopers")
+    };
 
     @Override
     public String toString() {

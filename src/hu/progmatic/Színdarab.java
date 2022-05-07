@@ -18,9 +18,9 @@ public class Színdarab {
     @Override
     public String toString() {
         return"szerző: " + szerző +
-                "Előadás Címe: " + címét +
-                "felvonásokSzáma: " + felvonásokSzáma +
-                "szerepek: " + szerepek;
+                ", Előadás Címe: " + címét +
+                ", felvonásokSzáma: " + felvonásokSzáma +
+                ", szerepek: " + szerepek;
     }
 
     public String getSzerző() {

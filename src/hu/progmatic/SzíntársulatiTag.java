@@ -8,4 +8,22 @@ public class SzíntársulatiTag  {
         this.name = name;
         this.ber = ber;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getBer() {
+        return ber;
+    }
+
+    public void setBer(int ber) {
+        this.ber = ber;
+    }
+
+
 }

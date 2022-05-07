@@ -7,6 +7,11 @@ public class Kellékes extends SzíntársulatiTag {
         super(name, ber);
         this.kellekek = kellekek;
     }
+    String[] kellékes1 = {
+            String.valueOf(new String[]{"Monitor","Billenytűzet","Egér",}),
+
+    };
+
 
     public String[] getKellekek() {
         return kellekek;
